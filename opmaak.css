@@ -2,5 +2,26 @@ h1 {
 
     font-family: 'Times New Roman', Times, serif;
     color: hotpink;
-    
+
+}
+
+h2 {
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+
+}
+
+h3 {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: indigo;
+
+}
+
+p {
+
+    color: green;
+    font-weight: 20px;
+
 }
