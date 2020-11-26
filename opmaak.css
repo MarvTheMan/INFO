@@ -30,7 +30,7 @@ p {
 }
 
 div {
-    width: 1150px;
+    object-fit: fill;
     border: 15px solid rgb(177, 177, 177);
     padding: 30px;
     margin: 10px;
