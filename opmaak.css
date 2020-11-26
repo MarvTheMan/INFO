@@ -1,7 +1,9 @@
 h1 {
 
     font-family: 'Times New Roman', Times, serif;
-    color: hotpink;
+    color: #6ab9d1;
+    text-transform: uppercase;
+    text-align: center;
 
 }
 
@@ -15,13 +17,13 @@ h2 {
 h3 {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: indigo;
+    color: indigo;
 
 }
 
 p {
 
-    color: green;
+    color: black;
     font-weight: 20px;
 
 }
