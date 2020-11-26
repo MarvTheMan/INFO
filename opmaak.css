@@ -1,6 +1,6 @@
 h1 {
 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #6ab9d1;
     text-transform: uppercase;
     text-align: center;
@@ -25,6 +25,7 @@ p {
 
     color: black;
     font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -42,6 +43,7 @@ a:link, a:visited {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
 a:hover, a:active {
