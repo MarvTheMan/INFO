@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt : kleiner dan 1080 pixels*/
+@media only screen  
+and (max-width : 1099px) 
+{
+/* Styles */
+    .content{
+        background-color: #0000FF;
+    }
+
+
+}
+
+
+/* Tablet (portrait). Vertel hier ook welke je gekozen hebt : tussen 1080 en 1199 pixels */
+@media only screen
+and (min-width : 1100px)  
+and (max-width :  1399px) 
+{
+/* Styles */
+    .content{
+        background-color : #FF0000;
+
+    }
+}
+
+/* Laptop/PC. Vertel hier ook welke je gekozen hebt : 1200 pixels en groter */
+@media only screen and (min-width : 1400px)  
+{
+/* Styles */
+    .content{
+        background-color: #00FF00;
+    }
+
+}
