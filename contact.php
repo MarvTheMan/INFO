@@ -1,8 +1,7 @@
 <html>
 <body>
 
-<?php $name = $email = ""; ?>
-
+<!-- aanmaken/invullen van file met contactgegevens -->
 <?php
 $myfile = fopen($_POST["name"] . ".txt", "w") or die ("Er is iets misgegaan!");
 fwrite($myfile,"Naam: " . $_POST["name"] . "\n");
@@ -10,12 +9,14 @@ fwrite($myfile,"E-mail: " . $_POST["email"] . "\n");
 fclose($myfile);
 ?>
 
+<!-- Tekst die op de pagina verschijnt -->
 Beste <?php echo $_POST["name"]; ?>,<br>
 Bedankt voor het invullen van ons formulier. We zullen binnenkort<br>
 via <?php echo $_POST["email"]; ?> contact met u opnemen.<br>
 Met vriendelijke groet,<br>
 Team 23
 
+<!-- Bevestigingsmail die wordt verstuurd via PHP mailserver -->
 <?php
 $to = $_POST["email"];
 $subject = "Bevestigingsmail";
