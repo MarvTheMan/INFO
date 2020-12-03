@@ -16,13 +16,12 @@
 <body>
     <h1>Dit is nog een pagina</h1><br>
     <p>Een leuk stukje tekst om te testen</p>
-        <form action="index.html">
-            <label for="name">Voornaam:</label><br>
-            <input type="text" id="name" name="name" value="Naam" required><br>
-            <label for="email">E-mail:</label><br>
-            <input type="text" id="email" name="email" value="E-mail" required>
-            <input type="submit">
+        <form action="contact.php" method="post">
+            Name: <br>
+            <input type="text" name="name"><br><br>
+            E-mail: <br> 
+            <input type="text" name="email"><br><br><br>
+            <input type="submit" formmethod="post">
         </form>
 </body>
 </div>
-
