@@ -1,4 +1,17 @@
 <html>
+<head>
+<title>Contact</title>
+<link rel="icon" href="images/sonic_icon.png">
+<link rel="stylesheet" type="text/css" href="opmaak.css">
+</head>
+
+<header>
+    <a href="index.html">Homepage</a>
+    <a href="paginaMetPlaatje.html">Pagina met plaatje</a>
+    <a href="paginaMetTekst.html">Pagina met tekst</a>
+    <a href="nogEenPagina.html">Nog een pagina</a>
+</header>
+
 <body>
 
 <!-- aanmaken/invullen van file met contactgegevens -->
@@ -10,11 +23,15 @@ fclose($myfile);
 ?>
 
 <!-- Tekst die op de pagina verschijnt -->
+<div>
+<p>
 Beste <?php echo $_POST["name"]; ?>,<br>
 Bedankt voor het invullen van ons formulier. We zullen binnenkort<br>
 via <?php echo $_POST["email"]; ?> contact met u opnemen.<br>
 Met vriendelijke groet,<br>
 Team 23
+</p>
+</div>
 
 <!-- Bevestigingsmail die wordt verstuurd via PHP mailserver -->
 <?php
