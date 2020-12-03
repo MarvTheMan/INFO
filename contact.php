@@ -17,7 +17,7 @@ Beste <?php echo $_POST["name"]; ?>,<br>
 Bedankt voor het invullen van ons formulier. We zullen binnenkort<br>
 via <?php echo $_POST["email"]; ?> contact met u opnemen.<br>
 Met vriendelijke groet,<br>
-Team 23
+Team 23 
 
 <?php
 $to = $_POST["email"];
