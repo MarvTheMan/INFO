@@ -1,8 +1,8 @@
 <html>
 <head>
-<title>Contact</title>
-<link rel="icon" href="images/sonic_icon.png">
-<link rel="stylesheet" type="text/css" href="opmaak.css">
+    <title>Contact</title>
+    <link rel="icon" href="images/sonic_icon.png">
+    <link rel="stylesheet" type="text/css" href="opmaak.css">
 </head>
 
 <header>
