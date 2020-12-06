@@ -1,7 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');   /* Ophalen van Google font*/
 
+/* Opmaak kop 1 */
 h1 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,6 +12,7 @@ h1 {
 
 }
 
+/* Opmaak kop 2 */
 h2 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -19,6 +21,7 @@ h2 {
 
 }
 
+/* Opmaak kop 3 */
 h3 {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -26,6 +29,7 @@ h3 {
 
 }
 
+/* Opmaak tekst */
 p {
 
     color: black;
@@ -34,6 +38,7 @@ p {
 
 }
 
+/* Opmaak navigatiebuttons in navigatiemenu */
 div {
     object-fit: fill;
     border: 15px solid rgb(177, 177, 177);
@@ -41,6 +46,7 @@ div {
     margin: 10px;
   }
 
+/* Opmaak navigatiebuttons bij het niet aanraken van de knop met muis */
 a:link, a:visited {
     background-color: #6ab9d1;
     color: white;
@@ -50,12 +56,13 @@ a:link, a:visited {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  
+
+/* Opmaak navigatiebuttons bij het wel aanraken van de knop met muis */
 a:hover, a:active {
     background-color: rgb(27, 134, 167);
   }
 
-/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt : kleiner dan 1080 pixels*/
+/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt : kleiner dan 1099 pixels*/
 @media only screen  
 and (max-width : 1099px) 
 {
@@ -68,7 +75,7 @@ and (max-width : 1099px)
 }
 
 
-/* Tablet (portrait). Vertel hier ook welke je gekozen hebt : tussen 1080 en 1199 pixels */
+/* Tablet (portrait). Vertel hier ook welke je gekozen hebt : tussen 1100 en 1399 pixels */
 @media only screen
 and (min-width : 1100px)  
 and (max-width :  1399px) 
@@ -80,7 +87,7 @@ and (max-width :  1399px)
     }
 }
 
-/* Laptop/PC. Vertel hier ook welke je gekozen hebt : 1200 pixels en groter */
+/* Laptop/PC. Vertel hier ook welke je gekozen hebt : 1400 pixels en groter */
 @media only screen and (min-width : 1400px)  
 {
 /* Styles */

@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');   /* Ophalen van Google font*/
 
+/* Opmaak kop 1 */
 h1 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -9,6 +10,7 @@ h1 {
 
 }
 
+/* Opmaak kop 2 */
 h2 {
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -17,6 +19,7 @@ h2 {
 
 }
 
+/* Opmaak kop 3 */
 h3 {
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,6 +27,7 @@ h3 {
 
 }
 
+/* Opmaak tekst */
 p {
 
     color: black;
@@ -32,6 +36,7 @@ p {
 
 }
 
+/* Opmaak navigatiebuttons in navigatiemenu */
 div {
     object-fit: fill;
     border: 15px solid rgb(177, 177, 177);
@@ -39,6 +44,7 @@ div {
     margin: 10px;
   }
 
+/* Opmaak navigatiebuttons bij het niet aanraken van de knop met muis */
 a:link, a:visited {
     background-color: #6ab9d1;
     color: white;
@@ -48,7 +54,8 @@ a:link, a:visited {
     display: inline-block;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
-  
+
+/* Opmaak navigatiebuttons bij het wel aanraken van de knop met muis */
 a:hover, a:active {
     background-color: rgb(27, 134, 167);
   }
