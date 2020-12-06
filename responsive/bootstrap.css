@@ -62,9 +62,9 @@ a:hover, a:active {
     background-color: rgb(27, 134, 167);
   }
 
-/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt : kleiner dan 1099 pixels*/
+/* Smartphones (portrait). Vertel hier ook welke je gekozen hebt : kleiner dan 899 pixels*/
 @media only screen  
-and (max-width : 1099px) 
+and (max-width : 899px) 
 {
 /* Styles */
     body{
@@ -75,10 +75,10 @@ and (max-width : 1099px)
 }
 
 
-/* Tablet (portrait). Vertel hier ook welke je gekozen hebt : tussen 1100 en 1399 pixels */
+/* Tablet (portrait). Vertel hier ook welke je gekozen hebt : tussen 900 en 1199 pixels */
 @media only screen
-and (min-width : 1100px)  
-and (max-width :  1399px) 
+and (min-width : 900px)  
+and (max-width :  1199px) 
 {
 /* Styles */
     body{
@@ -87,8 +87,8 @@ and (max-width :  1399px)
     }
 }
 
-/* Laptop/PC. Vertel hier ook welke je gekozen hebt : 1400 pixels en groter */
-@media only screen and (min-width : 1400px)  
+/* Laptop/PC. Vertel hier ook welke je gekozen hebt : 1200 pixels en groter */
+@media only screen and (min-width : 1200px)  
 {
 /* Styles */
     body{
