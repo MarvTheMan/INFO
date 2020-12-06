@@ -1,3 +1,4 @@
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');   /* Ophalen van Google font*/
 
 /* Opmaak kop 1 */
@@ -31,7 +32,7 @@ h3 {
 p {
 
     color: black;
-    font-weight: 20px;
+    font-weight: normal;
     font-family: 'Montserrat', sans-serif;
 
 }
